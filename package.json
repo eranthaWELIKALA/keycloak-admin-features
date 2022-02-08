@@ -1,0 +1,27 @@
+{
+  "name": "keycloak-admin-features",
+  "version": "1.0.0",
+  "description": "Access keycloak admin features using keycloak RestAPI",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "Keycloak",
+    "Admin",
+    "Features"
+  ],
+  "author": "eranthawelikala <eranthawelikala@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eranthaWELIKALA/keycloak-admin-features.git"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
